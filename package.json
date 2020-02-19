@@ -1,0 +1,69 @@
+{
+  "name": "rc-academy",
+  "version": "1.0.0",
+  "description": "RC Academy",
+  "author": "Ladda",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-brands": "^5.0.9",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.9",
+    "@fortawesome/vue-fontawesome": "0.0.22",
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/google-tag-manager": "^1.1.0",
+    "ajv": "^6.2.1",
+    "animejs": "^2.2.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.0.0",
+    "bootstrap-vue": "^1.5.1",
+    "chart.js": "^2.7.2",
+    "ckeditor": "^4.11.1",
+    "cookieparser": "^0.1.0",
+    "easeljs": "^1.0.2",
+    "helmet": "^3.15.0",
+    "install": "^0.10.4",
+    "jquery": "^3.3.1",
+    "js-cookie": "^2.2.0",
+    "jshint": "^2.9.6",
+    "jslint": "^0.12.1",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.1",
+    "node-fetch": "^2.4.1",
+    "npm": "^6.4.1",
+    "nuxt": "2.5.0",
+    "pug": "^2.0.1",
+    "pug-loader": "^2.3.0",
+    "pug-plain-loader": "^1.0.0",
+    "slick-carousel": "^1.8.1",
+    "vue-chartjs": "^3.3.2",
+    "vue-quill-editor": "^3.0.6",
+    "vueckeditor": "^0.1.4",
+    "vuedraggable": "^2.16.0",
+    "vuejs-datepicker": "^1.2.2",
+    "vuejs-paginate": "^1.9.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.15.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "webpack": "4.28.4"
+  }
+}

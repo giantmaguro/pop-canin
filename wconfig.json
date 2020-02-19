@@ -1,0 +1,8 @@
+{
+  "baseURL": "https://www.academy.royalcanin.co.th/",
+  "apiURL": "https://api.academy.royalcanin.co.th/",
+  "facebook": {
+    "APP_ID": 1299572346843320,
+    "PAGE_ID": 123636857709534
+  }
+}
